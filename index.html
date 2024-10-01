@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Alex Walcott's personal portfolio as a Front-End Developer, showcasing projects, experience, and skills in web development and content management.">
+
+
+    <!-- ===== SWIPER CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+
+
+
+    <!-- ===== BOX ICONS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.1/css/boxicons.min.css">
+
+    <!-- ===== Font Awesome ICONS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <!-- ===== CSS ===== -->
+    <link id="theme-stylesheet" rel="stylesheet" href="light-theme.css">
+
+    <title>Alex Walcott Portfolio</title>
+
+    <style>
+        /* Remove this block if it's causing conflicts */
+        .theme-toggle {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            z-index: 1000;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!--===== SCROLL TOP =====-->
+    <a href="#" class="scrolltop show--scroll" id="scroll-top" title="Back to Top"></a>
+
+
+
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container" id="navbar">
+            <a href="#" class="nav__logo">Alex Walcott</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__link active--link">Home</a></li>
+                    <li class="nav__item"> <a href="#journey" class="nav__link">Journey</a></li>
+                    <li class="nav__item"> <a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"> <a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__name">Alex Walcott</h1>
+                    <span class="home__professional">Front-End Developer</span>
+                    <a download=" " href="awlresume.pdf" class="button button-light home__button">Download CV</a>
+                </div>
+
+                <div class="home__img">
+                    <img src="portfolioimage.jpg" alt="Alex Walcott Front-End Portrait">
+                </div>
+                <div class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-lightbulb sun-icon"></i>
+                    <i class="fas fa-moon moon-icon"></i>
+                </div>
+                
+                  <a href="https://www.linkedin.com/in/alexwalcott/" target="_blank" class="linkedin-icon">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  
+            </div>
+        </section>
+
+
+
+
+        <!--===== ABOUT =====-->
+        <section class="about-me">
+            <div class="map">
+                <div class="car"></div>
+            </div>
+
+
+        </section>
+
+
+
+        <!--===== QUALIFICATION =====-->
+        <section class="quali section bd-container">
+            <span class="section-subtitle">Experience and Education</span>
+            <h2 class="section-title">Qualifications</h2>
+
+            <div class="content-container">
+                <!-- Work Experience Section -->
+                <div class="quali__content">
+                    <h2 class="quali__title">
+                        <i class='bx bxs-briefcase-alt quali__title-icon'></i>
+                        Work Experience
+                    </h2>
+
+                    <div class="bd-grid">
+                        <div class="quali__data">
+                            <h3 class="quali__area">Freelance Developer</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    Oct 2022 - Present
+                                    <ul>
+                                        <li>Designed and developed a comprehensive website for Smart Start Solutions,
+                                            focusing on user-friendly design and functionality.</li>
+                                        <li>Utilized technologies such as HTML, CSS, and JavaScript to create a
+                                            responsive and engaging user experience.</li>
+                                        <li>Extensive client collaboration, custom design, and problem-solving,
+                                            demonstrating strong development skills and adaptability.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="quali__data">
+                            <h3 class="quali__area">Volunteer Web Developer</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    October 2023 - June 2024
+                                    <ul>
+                                        <li>Contributed to web development and content management for Dandelion Meadows,
+                                            enhancing their online presence and engagement.</li>
+                                        <li>Volunteered to support a nonprofit organization, showcasing a commitment to
+                                            community service and technical skills.</li>
+                                        <li>Currently on hold due to family commitments, but the experience highlighted
+                                            skills in teamwork, project management, and web development.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="quali__data">
+                            <h3 class="quali__area">Website Specialist</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    November 2023 - Present
+                                    <ul>
+                                        <li>Worked as a website specialist for Magi Healing, focusing on optimizing
+                                            website performance and user experience.</li>
+                                        <li>Implemented design improvements and technical updates to enhance site
+                                            functionality and aesthetics.</li>
+                                        <li>Collaborated with the team to ensure alignment with client goals and project
+                                            requirements.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="quali__data">
+                            <h3 class="quali__area">Customer Service & Delivery Specialist</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    April 2019 - April 2023
+                                    <ul>
+                                        <li>Provided exceptional customer service and support for Hop and Wine,
+                                            addressing customer inquiries and resolving issues effectively.</li>
+                                        <li>Managed deliveries, ensuring timely and accurate service while maintaining a
+                                            positive customer experience.</li>
+                                        <li>Developed strong communication and problem-solving skills, contributing to
+                                            high customer satisfaction and loyalty.</li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Section -->
+                <div class="quali__content">
+                    <h2 class="quali__title">
+                        <i class='bx bx-library quali__title-icon'></i>
+                        Education
+                    </h2>
+
+                    <div class="bd-grid">
+                        <div class="quali__data">
+                            <h3 class="quali__area">Full Stack Web and Mobile Development</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bxs-book quali__icon'></i>
+                                    Nucamp Coding Bootcamp
+                                </span>
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    Dec 2022 - May 2023
+                                </span>
+                                <ul>
+                                    <li>Technologies: HTML, CSS, JavaScript, React, Node.js, MongoDB</li>
+                                    <li>Tools: Git, GitHub, VS Code, Postman, Firebase</li>
+                                    <li>Projects: Full-stack web applications, mobile app development</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="quali__data">
+                            <h3 class="quali__area">Web Development Fundamentals</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bxs-book quali__icon'></i>
+                                    Nucamp Coding Bootcamp
+                                </span>
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    Oct 2022 - Nov 2022
+                                </span>
+                                <ul>
+                                    <li>Technologies: HTML, CSS, JavaScript</li>
+                                    <li>Tools: Git, GitHub, VS Code</li>
+                                    <li>Projects: Basic website design, responsive layouts</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="quali__data">
+                            <h3 class="quali__area">Google Cybersecurity Course (In Progress)</h3>
+                            <div class="quali__box">
+                                <span class="quali__work">
+                                    <i class='bx bxs-book quali__icon'></i>
+                                    Coursera
+                                </span>
+                                <span class="quali__work">
+                                    <i class='bx bx-calendar-alt quali__icon'></i>
+                                    Started: August 2024
+                                </span>
+                                <ul>
+                                    <li>Technologies: Cybersecurity Fundamentals, Risk Management, Security Protocols
+                                    </li>
+                                    <li>Tools: Various cybersecurity tools and techniques</li>
+                                    <li>Projects: Practical exercises and case studies related to cybersecurity
+                                        challenges</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== TOOLS =====-->
+
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="section-title">My Work</h2>
+            <div class="portfolio__container">
+                <!-- Smart Start Solutions -->
+                <div class="portfolio__item web">
+                    <img src="sss.png" alt="Smart Start Solutions">
+                    <div class="portfolio__item-info">
+                        <h3 class="portfolio__item-title">Smart Start Solutions</h3>
+                        <p class="portfolio__item-description">A comprehensive platform designed to assist new
+                            businesses in getting started with streamlined solutions and tools.</p>
+                        <a href="https://www.smartstartsolutions.com" class="portfolio__item-link" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Magi Healing -->
+                <div class="portfolio__item design">
+                    <img src="mh.jpg" alt="Magi Healing">
+                    <div class="portfolio__item-info">
+                        <h3 class="portfolio__item-title">Magi Healing</h3>
+                        <p class="portfolio__item-description">A healing and wellness site that offers a range of
+                            services and resources for holistic health.</p>
+                        <a href="https://www.magihealing.com" class="portfolio__item-link" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+
+                <!-- Dandelion Meadow -->
+                <div class="portfolio__item mobile">
+                    <img src="dm.jpg" alt="Dandelion Meadow">
+                    <div class="portfolio__item-info">
+                        <h3 class="portfolio__item-title">Dandelion Meadow</h3>
+                        <p class="portfolio__item-description">A beautifully designed app for nature enthusiasts to
+                            explore and document their outdoor adventures.</p>
+                        <a href="https://www.dandelionmeadow.com" class="portfolio__item-link" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--===== TESTIMONIAL =====-->
+
+
+
+        <!--===== CONTACTME =====-->
+        <section class="contact section bd-container">
+            <span class="section-subtitle">Get in Touch</span>
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact__container bd-grid">
+                <a href="awlresume.pdf" download class="button contact__button">Download CV</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__container">
+            <h1 class="footer__title">Alex Walcott</h1>
+            <p class="footer__desc">Thank you for stopping by.</p>
+            <p class="footer__copy">&#169; 2024 Alex Walcott. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- ===== MIXITUP FILTER ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+        integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A=="
+        crossorigin="anonymous"></script>
+
+    <!-- ===== Mixitup ===== -->
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ===== GSAP ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="app.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>
